@@ -8,7 +8,10 @@
             <div class="card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     {{ __('Dashboard') }}
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal">Add New User</button>
+                    <div class="d-flex gap-2">
+                        <a href="{{ route('index') }}" class="btn btn-secondary">Click Me</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal">Add New User</button>
+                    </div>
                 </div>
             </div>
         </div>
